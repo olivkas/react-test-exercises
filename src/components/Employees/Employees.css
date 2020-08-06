@@ -1,0 +1,65 @@
+.employee {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid #b0cfe0;
+  width: 400px;
+  margin: 5px 20px;
+  padding: 5px;
+}
+
+.list-employees {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.addEmployee {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.cross {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+.wr-addEmployee {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.formAddEmployee {
+  max-width: 450px;
+  max-height: 200px;
+  background: #fafafa;
+  margin-top: 300px;
+  padding: 10px;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  border: 6px solid #a1d6df;
+}
+
+img {
+  max-width: 180px;
+  max-height: 180px;
+  border-radius: 50%;
+  display: block;
+}
+
+.info {
+  text-align: center;
+  margin: 14px;
+}
+
+.fa-trash,
+.fa {
+  font-size: 25px;
+  cursor: pointer;
+}

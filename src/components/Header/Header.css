@@ -1,0 +1,14 @@
+.primaryHeader {
+  background-color: #222222;
+  height: 40px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.wr_content {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
